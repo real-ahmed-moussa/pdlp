@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+tfx_venv/
+
+# TFX / pipeline outputs (regenerated on every run)
+01_experimentation/pl_root/
+01_experimentation/model_serving/
+01_experimentation/exp_models/
+02_local_pipeline/output/
+*.sqlite
+_wheels/
+
+# Course data (not redistributed; created by prepare_data.py)
+Concrete_Data.xls
+01_experimentation/exp_data/
+02_local_pipeline/loc_dev_data/
+03_cloud_pipeline/bucket_data/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Logs
+logs/
+*.log
+
+# Secrets and local config
+*.json.key
+service-account*.json
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
