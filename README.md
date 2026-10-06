@@ -133,8 +133,8 @@ A new model reaches the endpoint only if the Evaluator blesses it:
 ## Setup
 
 ```bash
-git clone <this-repo-url>
-cd production-grade-dl-pipelines
+git clone https://github.com/real-ahmed-moussa/pdlp
+cd pdlp
 
 python3.10 -m venv ~/tfx_venv
 source ~/tfx_venv/bin/activate
